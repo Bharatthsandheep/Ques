@@ -1,0 +1,533 @@
+
+VNV AT Mod 4 MTT Set 4
+
+
+Section:
+1
+2
+3
+4
+5
+6
+7
+8
+Time Left : 31 : 09 List View 
+    Active     Attempted     Not Attempted
+Q1
+
+How the test automation can be cost-effective?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Choose a test tool that best fits the testing requirements of your organization
+One-time tests should be automated.Dont automate those tests that are going to be repeated.
+As far as possible use a data-driven automated testing methodology
+Have a set of resources (hardware, software and people) dedicated to test automation
+Q2
+
+Why would you want to automate a test?
+Single Choice - Select one correct answer from the options list.
+Replace manual testers
+Find more bugs
+To repeat the same test many times
+Save time for exploratory testing
+Q3
+
+What is test Automation?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Automation process uses automation tools to run tests that repeat predefined actions
+The automation means automate the test cases for which the requirements are changing frequently
+Test automation matches the developed program's probable and real results
+Test automation means automating test cases which are executed on ad-hoc basis.
+Q4
+
+What are the steps followed in an automation process?
+Single Choice - Select one correct answer from the options list.
+1.Test tool selection
+2.Define the scope of Automation
+3.Planning, Design and Development 
+4.Test Execution
+5.Maintenance
+1.Define the scope of Automation
+2.Planning, Design and Development 
+3.Test Execution
+1.Test tool selection
+2.Planning, Design and Development 
+3.Test Execution
+4.Maintenance
+1.Test tool selection
+2.Define the scope of Automation
+3.Planning, Design and Development 
+4.Test Execution
+Q5
+
+Selenium IDE is supported by which browser?
+Single Choice - Select one correct answer from the options list.
+Mozilla Firefox
+Google Chrome
+Internet Explorer
+Phantom Js
+HtmlUnit
+Q6
+
+Which of the following features does Selenium IDE support?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Test in multiple browsers
+Parallel testing using Selenium Grid
+Export recorded tests to scripts
+Record and Play
+Test against Firefox only
+Q7
+
+Consider the below scenario:
+
+The Automation test team lead Ram has to select selenium flavor. The project scripts would be 
+implemented using one of the selenium flavor for the below requirement:
+
+"The web application UI tests has to be written in any programming language against any HTTP website 
+using any mainstream JavaScript-enabled browser."
+
+Which flavor would you suggest to Ram?
+Single Choice - Select one correct answer from the options list.
+Selenium IDE
+Selenium Remote Control 
+Selenium Grid
+Selenium Web
+Q8
+
+Which of the following statement is not TRUE?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+WebDriver rely on JavaScript for automation. 
+Webdriver controls the browser by directly communicating to it.
+Webdriver provides you UI for record and reply
+WebDriver enables user to perform web based mobile testing and to support the same, 
+WebDriver introduces AndroidDriver and IphoneDriver.
+Q9
+
+Which selenium framework requires the development of data tables and keywords?
+Single Choice - Select one correct answer from the options list.
+Data-Driven Automation Framework.
+Hybrid Automation Framework
+Keyword-Driven Automation Framework
+TestNG
+Q10
+
+State TRUE or False:
+
+Jenkins is an example of Continuous integration tool.
+Single Choice - Select one correct answer from the options list.
+TRUE
+FALSE
+Q11
+
+Which language does the Cucumber understands?
+Single Choice - Select one correct answer from the options list.
+Gherkin
+C++
+Ruby 
+Cobol
+Python
+Q12
+
+Which of the following are valid TestNG XML tagname?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+parameter
+classes
+test 
+suites
+class name
+Q13
+
+What is the Output of below Junit code?
+
+import org.junit.*;
+import org.junit.Test;
+public class Junittest {
+  @Test
+ public void a1b1()
+ {
+  System.out.println("I am in display");
+ }
+ @Test
+ public void a4b4()
+ {
+  System.out.println("I am in exit");
+ }
+ @Test
+ public void a5b5()
+ {
+  System.out.println("I am in print");
+ }
+}
+Single Choice - Select one correct answer from the options list.
+I am in print
+I am in exit
+I am in display
+I am in exit
+I am in display
+I am in print
+I am in display
+I am in exit
+I am in print
+I am in print
+I am in display
+I am in exit
+Q14
+
+What is the Output of below Junit code?
+
+import org.junit.*;
+import org.junit.Test;
+public class Junittest {
+ @Ignore 
+ @Test
+ public void display()
+ {
+  System.out.println("I am in display");
+  }
+ @Ignore 
+ @Test
+ public void exit()
+ {
+  System.out.println("I am in exit");
+ }
+ @Ignore 
+ @Test
+ public void print()
+ {
+  System.out.println("I am in print");
+ }
+}
+Single Choice - Select one correct answer from the options list.
+I am in print
+I am in display
+I am in exit
+I am in print
+I am in display
+I am in display
+I am in exit
+I am in print
+None of these
+Q15
+
+Consider the following scenario:
+
+Ramesh has the requirement to use the Java testing framework in his project. 
+As per the requirement the framework should be open source and it should not be limited to unit tests. 
+The framework should facilitates running multi-threaded tests. It should support all major IDEs. 
+Also should integrates with the build tools like Ant, Maven and Gradle.
+
+Which Java testing framework would you suggest to Ramesh?
+Single Choice - Select one correct answer from the options list.
+Junit
+TestNG 
+Watir
+Ranorex
+Sahi
+Q16
+
+What is the Output of below Junit code?
+
+import org.junit.*;
+import org.junit.Test;
+public class Junittest {
+ @Test
+ public void pqr()
+  {
+  System.out.println("Test1");
+  }
+ @Test
+ public void abc()
+  {
+  System.out.println("Test2");
+  }
+ @Test
+ public void bcd()
+ {
+  System.out.println("Test3");
+ }
+}
+Single Choice - Select one correct answer from the options list.
+Test2
+Test3
+Test1
+Test3
+Test1
+Test2
+Test2
+Test1
+Test3
+Test1
+Test2
+Test3
+Q17
+
+Which of the following are advantages of TestNG?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Integrates very well with the build tools: Ant, Maven and Gradle
+Vendor specific Java testing framework, not limited to unit tests
+Supported by limited number of IDEs
+Facilitates running multi-threaded tests
+Q18
+
+Which of the following method of Assert class checks that two objects are equal?
+Single Choice - Select one correct answer from the options list.
+void assertEquals(boolean expected, boolean actual)
+void assert(boolean expected, boolean actual)
+ void assertChecks(boolean expected, boolean actual)
+void assertEq(boolean expected, boolean actual)
+Q19
+
+Which of the following statements are applicable for capabilities and Profile setting in webdriver?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Desiredcapability can not be used to configure the driver instance of Selenium WebDriver
+Capabilities describes a series of key/value pairs that encapsulate aspects of a browser
+Profile used to create custom Firefox profile
+DesiredCapabilities set properties for the WebDriver
+Profile used to create custom data driven automation framework
+Q20
+
+Using phantomjs headless browser which of the below code retrives the title of the opened 
+web page from Opencart website?
+Single Choice - Select one correct answer from the options list.
+System.setProperty("binary.phantomjs.path","Path to phantomjs.exe");
+ WebDriver driver = new PhantomJSDriver();
+driver.get("http://www.opencart.com"); 
+System.out.println("Page title is: " + driver.getTitle());
+System.setProperty("binary.phantomjs.path","Path to phantomjs.exe");
+ WebDriver driver = new PhantomJSDriver();
+driver.get("http://www.opencart.com"); 
+System.out.println("Page title is: " + driver.retriveTitle());
+System.setProperty("phantomjs.binary.path","Path to phantomjs.exe");
+ WebDriver driver = new PhantomJSDriver();
+driver.get("http://www.opencart.com"); 
+System.out.println("Page title is: " + driver.retriveTitle());
+System.setProperty("phantomjs.binary.path","Path to phantomjs.exe");
+ WebDriver driver = new PhantomJSDriver();
+driver.get("http://www.opencart.com"); 
+System.out.println("Page title is: " + driver.getTitle());
+Q21
+
+Which of the following is the correct webdriver code to create the instance of remote webdriver? 
+Assume that Selenium Server is running on localhost with  the default port of 4444
+Single Choice - Select one correct answer from the options list.
+WebDriver driver = new WebDriver(new URL("http://localhost:                4444/wd/hub"), DesiredCapabilities.firefox());
+WebDriver driver = new RemoteWebDriver(new URL("http://localhost:                4444/wd/hub"), DesiredCapabilities.firefox());
+WebDriver driver = new RemoteWebDriver("http://localhost:                4444/wd/hub"), DesiredCapabilities.firefox());
+All of the above
+Q22
+
+How we capture screenshot in Selenium WebDriver?
+Single Choice - Select one correct answer from the options list.
+We can use selenium webdriver Screenshot method to capture screenshot and Java console class 
+will be used to store screenshot In your system's local drive
+We can use selenium webdriver TakesScreenshot method to capture screenshot and Java File class 
+will be used to store screenshot In your system's local drive
+We can use selenium IDE integration with selenium  webdriver to take screenshot
+We can use selenium webdriver Takeshot method to capture screenshot and Java Object class 
+will be used to store screenshot In your system's local drive
+Q23
+
+Is the below code will open opencart web site using Internet Explorer?
+
+ System.setProperty("webdriver.ie.driver", "Path of IEDriverServer.exe");
+ WebDriver driver=new    InternetExplorerDriver();
+driver.get("http://demo.opencart.com/");
+Single Choice - Select one correct answer from the options list.
+No
+Yes
+Q24
+
+Which of the following is correct syntex to launch the Safari browser using WebDriver?
+Single Choice - Select one correct answer from the options list.
+WebDriver driver = new SafariDriver();
+WebDriver driver = new SafaribrowserDriver();
+WebDriver driver = new Webdriver();
+driver.sadari;
+WebDriver driver = new Webdriver(safari);
+Q25
+
+Consider the following scenario:
+
+Shivanshi was working on Online recruitment application project. While working on one of the script, 
+she was supposed to retrieve the message from alert window and print on the console
+Which line of the code she would use to achieve this objective?
+Single Choice - Select one correct answer from the options list.
+import org.openqa.selenium.Alert;
+Alert a=driver.switchTo().alert();
+String alerttext=a.getText();
+System.out.println("Alert text is:" +alerttext);
+Alert A=driver.switchTo().alert();
+String alerttext=A.getText();
+System.out.println("Alert text is:" & alerttext);
+import org.openqa.selenium.Alert;
+Alert s=driver.setFocus().alert();
+String alerttext=s.getinnerText();
+System.out.println("Alert text is:" +alerttext);
+import org.openqa.selenium.Alert;
+Alert k=driver.switchTo().alertWindow();
+String alerttext=k.getText();
+System.out.println("Alert text is:" +alerttext);
+Q26
+
+Which of the following is correct syntex to launch the browser using WebDriver? 
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+WebDriver driver = new Driver();
+WebDriver driver = new ChromeDriver();
+WebDriver driver = new InternetExplorerDriver();
+WebDriver driver = new PhantomDriver();
+Q27
+
+Consider the following scenario:
+
+Prashant has written following webdriver code to paste the value in address textbox.
+driver.findElement(By.xpath("//*[@id='txtAddress']")).sendKey(Key.chord(Keys.CONTROL,"c"));
+
+He has tried above line of code but its not working. What is correct line of code to solve his problem?
+Single Choice - Select one correct answer from the options list.
+driver.findElement(By.xpath("//*[@id='txtAddress']")).sendKey(Key.chord(Keys.CONTROL,"a"));
+driver.findElement(By.xpath("//*[@id='txtAddress']")).sendKeys(Key.chord(Keys.CONTROL,"p"));
+driver.findElement(By.xpath("//*[@id='txtAddress']")).sendKeys(Keys.chord(Keys.CONTROL,"c"));
+driver.findElement(By.xpath("//*[@id='txtAddress']")).sendKeys(Keys.chord(Keys.CONTROL,"v"));
+Q28
+
+Which Webdriver function sets the value property of the element to an empty string ?
+Single Choice - Select one correct answer from the options list.
+clear()
+click()
+clrText()
+clearText()
+Q29
+
+In selenium WebDriver Which command can be used to enter value onto text box?
+Single Choice - Select one correct answer from the options list.
+sendKeys()
+type()
+enter()
+sendKey()
+Q30
+
+Select the Get command which fetches the inner text of the element that you specify in Web driver?
+Single Choice - Select one correct answer from the options list.
+getinnerText()
+get()
+getText()
+verifyText()
+Q31
+
+Select the method which selects the option at the given index.
+Single Choice - Select one correct answer from the options list.
+selectedByIndex()
+selectedByName()
+selectedByValue()
+selectByIndex()
+Q32
+
+Consider the following scenario:
+
+Rina was working on the project named Online bus booking Application. While developing automation script 
+using Selenium Webdriver she has faced following issue:
+
+She was trying to copy password from password textbox. To achieve this she had written correct webdriver code 
+using xpath element locator. As she knows she has to select the password value before copying it.
+She was not able to select the password value from password textbox using webdriver code.
+
+Which webdriver code would you suggest to Rina to select the value from password textbox?
+Single Choice - Select one correct answer from the options list.
+driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys(Keys.chosd(Keys.select,"a"));
+driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys(Keys.chord(Keys.CONTROL,"a"));
+driver.findElements(By.xpath("//*[@id='txtPassword']")).sendKey(Keys.chord(Keys.CONTROL,"a"));
+driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys(Keys.chord(Keys.CONTROL,"c"));
+Q33
+
+Which commands would you use to automate the following test scenario using Selenium IDE?
+
+Open URL: http://www.google.com/ and search for ”Sachin Tendulkar”.
+The search textbox id is lst-ib
+Single Choice - Select one correct answer from the options list.
+1.open https://www.google.co.in 
+2.type id=lst-ib sachin tendulakar 
+1.get https://www.google.co.in 
+2.type id=lst-ib sachin tendulakar 
+1.open https://www.google.co.in 
+2.sendkey id=lst-ib sachin tendulakar 
+1.open https://www.google.co.in 
+2.type name=lst-ib sachin tendulakar 
+Q34
+
+Which Selenium IDE command is used to wait for page title "User Registration"? 
+Single Choice - Select one correct answer from the options list.
+thread.sleep User Registration
+Pause User Registration
+waitForPageTitle User Registration
+waitForTitle User Registration
+Q35
+
+Which Selenium IDE command is used to store the page title and display in Log pane?
+Single Choice - Select one correct answer from the options list.
+1.assertTitle
+2.echo
+1.store
+2.print
+1.VerifyTitle
+2.echo
+1.storeTitle
+2.echo
+Q36
+
+Which of the following commands is used to print a string value or a variable in Selenium IDE?
+Single Choice - Select one correct answer from the options list.
+Display
+Printf
+echo
+print
+Q37
+
+What is Selenese?
+Single Choice - Select one correct answer from the options list.
+Selenese is the language which is used to write test scripts in Webdriver
+Selenese is the selenium tool which is used to write test scripts.
+Selenese is the automation framework which is used to write test scripts in Selenium 
+Selenese is the language which is used to write test scripts in Selenium IDE.
+Q38
+
+Which commands would you use to automate the following test scenario using Selenium IDE?
+
+"To verify the text User Name: which is present on user registration page"
+Single Choice - Select one correct answer from the options list.
+verifyTextPresent User Name : 
+verifyElementPresent User Name : 
+verifyString User Name : 
+getTextPresent User Name : 
+Q39
+
+Which of the following is Not feature of Selenium WebDriver?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Record and Playback
+Required to start server before executing the test script.
+Supports all browsers like Firefox, IE, Chrome
+Support the headless HtmlUnit browser
+Q40
+
+Fill in the blank:
+
+__________ is a advantage of Selenium Webdriver.
+Single Choice - Select one correct answer from the options list.
+Supports web based applications only.
+No built in result reporting facility 
+No IDE
+Open Source
+Intro to Automation
+1234
+Intro to Selenium
+5678
+Selenium Frameworks
+91011
+WD Test with Xunit
+12131415161718
+Selenium WD - Advance
+192021222324
+Testing Web App - WD API
+2526272829303132
+Working with Selenium IDE
+333435363738
+Selenium 2 - WD
+39403 out of 40  Submit Assessment

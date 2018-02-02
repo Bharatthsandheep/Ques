@@ -1,0 +1,699 @@
+
+VNV AT Mod 3 MTT Set 5
+
+
+Section:
+1
+2
+Time Left : 28 : 15 List View 
+    Active     Attempted     Not Attempted
+Q1
+
+ 
+"You can write focus tests that test only a single method without side effects resulting from 
+other objects that are called from the method."
+
+Given statement belongs to which concept ?
+Single Choice - Select one correct answer from the options list.
+Unit Testing
+Composing tests
+Mocking
+Reusing
+Q2
+
+ 
+What are the uses of org.junit.runners.Suite class ?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+To create a generic test, and run it multiple times with different parameters.
+To build a suite containing tests from several classes.
+To make use of annotations that have been introduced to build a Test Suite.
+To run the test for one part of the code independently without waiting for all other parts of the code.
+Q3
+
+ 
+_____ is an open source  framework  in java which is used to write and run repeatable 
+automated tests till the code works as expected.
+Single Choice - Select one correct answer from the options list.
+MVC
+JUnit
+NUnit
+MyUnit
+Q4
+
+ 
+public class TestDemo {
+ @Test
+ public void testPerson() {
+  Person person =new Person("Smith", 38);
+  assertNotNull("Object should not be null",person);
+  if(person.getAge()!=38){
+   fail("Age is not correct");
+  }else{
+   assertNotNull("Name Should not be null",person.getName());
+  }
+ }
+}
+
+Refer the test case, what will be the output of the above test case while executing with Junit? 
+Assume that Person class is created with two attribute name and age with parameterized constructor.
+Single Choice - Select one correct answer from the options list.
+Test case will pass
+Test will fail with assert exception "Object should not be null"
+Test will fail with assert exception "Age is not correct"
+Test will fail with assert exception "Name Should not be null"
+Q5
+
+ 
+Mock Objects are useful in which situation?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+When application integrates with external resources
+When java class is having multiple public methods
+When two class are tightly coupled to each other
+When you want to focus on single method
+Q6
+
+ 
+Consider the following scenario :
+
+Joe has created a Test Suit with 10 test cases to test an application out of which there are 2 test cases 
+that he doesn't want to execute right now, but he  still want these tests to be around and there is 
+one test case that consists of initialization task that he wants to run before each test run.    
+Which of the following actions will be more appropriate for Joe ?
+Single Choice - Select one correct answer from the options list.
+Joe should apply @BeforeClass annotation on one test case; @Ignore annotation on two test cases; 
+@Test annotation on seven test cases. 
+Joe should apply @Before annotation on one test case; @Ignore annotation on two test cases; 
+@Test annotation on seven test cases. 
+Joe should apply @Test annotation on one test case; @Ignore annotation on two test cases; 
+@After annotation on seven test cases. 
+Joe should apply @BeforeClass annotation on one test case; delete those two test cases; 
+@Test annotation on seven test cases.
+Q7
+
+ 
+What will be the result of given code?
+
+1 abstract class Bird{
+2    static int showAge(){
+3         int age=15;
+4         System.out.println(age);
+5    }
+6 }
+7 public class AngryBird extends Bird{
+8    public static void main(String args[]){
+9       AngryBird a=new AngryBird();
+10       a.showAge();
+11    }
+12 }
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Compilation fails because of an error at line 2
+Compilation succeeds but there is a runtime exception
+Compilation succeedes but raises a warning message because of line 10
+Compilation succeeds and generates output 15
+Q8
+
+ 
+Which of the following are not true about Input and Output stream?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+All byte stream classes are descended from InputStream and OutputStream
+OutputStream class includes the methods close() and read().
+InputStream and OutputStream are interfaces. 
+Reader and Writer are Input and Outpput character streams respectively.
+Q9
+
+ 
+What is the output of the following code snippet?
+
+int[] numbers={1,4,9,16,25};
+ int copynum[] = Arrays.copyOfRange(numbers, 1,3);
+ for(int i : copynum)
+  System.out.println(i);
+Single Choice - Select one correct answer from the options list.
+1
+4
+1
+4
+9
+4
+9
+4
+9
+16
+Q10
+
+ 
+What is th output of the following code snippet ?
+
+String ptn = "\\D+";
+String str = "78";
+
+boolean patternMatched = Pattern.matches(ptn, str);           
+System.out.println(patternMatched);
+Single Choice - Select one correct answer from the options list.
+TRUE
+FALSE
+Q11
+
+ 
+abstract interface Chargable{    //Line 1
+    final int FIX_CHARGE=200;      //Line 2
+    void calculateCharge();             //Line 3
+}                                                            // Line 4
+
+Is the above declaration of Chargable interface correct?               
+Single Choice - Select one correct answer from the options list.
+Yes
+No, Compilation error at Line 1, abstract should be removed
+No, Compilation error at Line 2, FIX_CHARGE must be public
+No, Compilation error at Line 3, calculateCharge must be public
+Q12
+
+ 
+What is the output of the following code snippet ?
+
+Scanner scanner = new Scanner("1,2,'a',4,5,6").useDelimiter(",");
+   
+    while (scanner.hasNextInt()) {
+     int num = scanner.nextInt();
+     if (num % 2 == 0) {
+      System.out.println(num);
+     }
+    }
+Single Choice - Select one correct answer from the options list.
+2
+4
+6
+Compilation error
+4
+6
+2
+Q13
+
+ 
+What is th output of the following code snippet ?
+
+String str = "eat ate eatten";
+ Pattern ptn = Pattern.compile("eat");
+ Matcher mtch = ptn.matcher(str);
+ 
+ while (mtch.find()) {
+  System.out.println(mtch.group() + ": " + mtch.start() + ": " + mtch.end());
+Single Choice - Select one correct answer from the options list.
+eat: 0: 2
+eat: 8: 10
+eat: 0: 3
+eat: 8: 11
+eat: 1: 3
+eat: 9: 11
+eat: 0: 14
+eat: 8: 14
+Q14
+
+ 
+State TRUE or FALSE :
+
+A class or method cannot be abstract & final at the same time.
+Single Choice - Select one correct answer from the options list.
+TRUE
+FALSE
+Q15
+
+ 
+Fill in the blank :
+
+The Scanner class is found in  ______ package.
+Single Choice - Select one correct answer from the options list.
+java.lang
+java.util
+java.io
+None of the above
+Q16
+
+ 
+public class Main {
+         public static void main(String[] args) {
+                  shapeA circleshape=new circle();
+                   circleshape.Draw();
+                   circleshape.Draw();
+    }
+}
+  
+  interface shapeA
+ {
+     public   String baseclass="shape";      
+     public void Draw();     
+ }
+  interface shapeB extends shapeA
+ {
+     public   String baseclass="shape2";
+     public void Draw2();     
+ }
+   class circle implements shapeB
+ {
+    public   String baseclass="shape3";
+    public void Draw() {
+        System.out.println("Drawing Circle here:"+baseclass);
+    }
+    @Override
+    public void Draw2() {
+         System.out.println("Drawing Circle here:"+baseclass);
+    }     
+ }
+
+What will be the output?
+Single Choice - Select one correct answer from the options list.
+Compilation error
+Drawing Circle here:shape3
+Drawing Circle here:shape3
+Drawing Circle here:shape3
+Runtime error
+Q17
+
+ 
+What following code will produce?
+
+public class Test {
+ public void functionX()
+  {
+   try {
+   throw new NullPointerException();
+   }
+   catch(Exception e)
+   {
+    System.out.println("Exception in function X");
+    System.exit(0);
+   }
+   finally
+   {
+    System.out.println("Finally in function X");
+   }
+  }
+  public static void main(String[] args) {
+   try
+   {
+   new Test().functionX();
+   }
+   catch(Exception e)
+   {
+    System.out.println( "Exception in main");
+   }
+   finally
+   {
+    System.out.println("Finally in main");
+   }
+  }
+}
+Single Choice - Select one correct answer from the options list.
+Exception in function X
+Finally in function X
+Finally in main
+
+Exception in function X                
+Finally in function X                      
+Exception in main
+Finally in main
+
+Exception in function X
+
+Exception in function X main Finally in main
+
+Q18
+
+ 
+Which of the following you can use with @RunWith annotation?            
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Jrunner.class
+Parameterised.class
+Suit.class
+JUnitRunner.class
+Q19
+
+ 
+What is the base class of all classes?                     
+Single Choice - Select one correct answer from the options list.
+java.lang.Class
+java.lang.String
+java.lang.Object
+java.lang.Package
+java.lang.System
+Q20
+
+ 
+State True or False:
+
+Statement 1: Java Abstract classes are used to declare common characteristics of subclasses.
+Statement 2: Java Interfaces are used to declare common characteristics of subclasses.
+Single Choice - Select one correct answer from the options list.
+Only statement 1 is true
+Only statement 2 is true
+Both statements are true
+Both statements are false
+Q21
+
+ 
+public static void main(String[] args) {
+try (Scanner scanner=new Scanner(System.in)){
+System.out.print("Enter Hiredate in dd/mm/yyyy format :");
+  String hiredate =scanner.next();
+  DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+  LocalDate formatedHireDate = LocalDate.parse(hiredate, formatter);
+  Period probationPeriod = Period.of(0,6,0);
+  LocalDate confirmationDate = formatedHireDate.plus(probationPeriod);
+  System.out.println(confirmationDate);    
+ } catch (Exception e) {
+e.printStacktrace();
+ }
+}
+
+What will be displayed in the output if user enters "21/05/2015" as a input?
+Single Choice - Select one correct answer from the options list.
+5/27/2015
+11/21/2015
+5/21/2021
+5/21/2015
+Q22
+
+ 
+Select the incorrect option w.r.t  variable declaration:        
+Single Choice - Select one correct answer from the options list.
+short binary = 0b11_0_0_10;
+double pi = 3.141_59D;
+int x=10 20;
+long phone = +99_2020_2134_0L;
+Q23
+
+ 
+public class CheckFlow {
+public static void main(String[] args) {
+System.out.print("1");
+try {
+System.out.print("2");
+} catch (Exception e) {
+System.out.print("3");
+return;
+} finally {
+System.out.print("4");
+}
+System.out.print("5");
+}
+}
+
+What will be the output of above code?           
+Single Choice - Select one correct answer from the options list.
+12345
+1245
+125
+1235
+Compilation Error
+Q24
+
+ 
+State True or False:
+
+Statement A: Abstract class can extend only one class.
+Statement B: Interface can extend any number of interfaces at a time.
+Single Choice - Select one correct answer from the options list.
+Statement A is false
+Statement B is true
+Both statements are true
+Both statements are false
+Statement A is true
+Statement B is false
+Q25
+
+ 
+What is the output of the following code snippet?
+
+class Animal {
+   public void move() {
+      System.out.println("Animals move");
+   }
+}
+
+public class human extends Animal{
+ public void move() {
+       System.out.println("Humans walk");
+    }
+    public void sound() {
+       System.out.println("Humans speak");
+    }
+
+ public static void main(String[] args) {
+  // TODO Auto-generated method stub
+  Animal obj = new human();
+  obj.move();
+  obj.sound();
+ }
+}
+Single Choice - Select one correct answer from the options list.
+Humans walk
+Humans speak
+Animals move
+Humans speak
+Compile time error because sound() is undefined for the type Animal.
+Compile time error because @Override annotation is not used.
+Q26
+
+ 
+Which of the following will give us the system data in Year-Month-Day format?  
+Single Choice - Select one correct answer from the options list.
+LocalDate today = LocalDate.current();
+LocalDate today = LocalDate.now();
+LocalDate today = LocalDate.today();
+LocalDate today = LocalDate.sysdate();
+Q27
+
+ 
+Consider a HashSet, if we insert elements in it in following order: 
+
+1,2,three,4,5,six,7,8,three,9,10 
+
+What will it produce if you print this HashSet?
+Single Choice - Select one correct answer from the options list.
+1, 2, three, 4, 5, six, 7, 8, 9, 10. It would be in order of insertion
+1, 2, three, 4, 5, six, 7, 8, three, 9, 10. It would be in order of insertion
+1, 2, 4, 5, six, 7, 8, three, 9, 10. However order may not be always same
+1, 2, 4, 5, six, 7, 8, three, 9, 10, three. However order may not be always same
+Compilation error as all elements must be of same type
+Q28
+
+ 
+class OverloadingCalculation1{  
+  void sum(int a,long b){System.out.println(a+b);}  
+  void sum(int a,int b,int c){System.out.println(a+b+c);}  
+  
+  public static void main(String args[]){  
+  OverloadingCalculation1 obj=new OverloadingCalculation1();  
+  obj.sum(20,20);//now second int literal will be promoted to long  
+  obj.sum(20,20,20);  
+  
+  }  
+} 
+
+Predict the output:
+Single Choice - Select one correct answer from the options list.
+40 
+60
+60
+40
+40
+40
+60
+60
+Q29
+
+ 
+Which of the following are not true about method overriding?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Constructors can be overridden.
+Method declared as final cannot be overridden.
+The argument list may not be same but the return type must be same.
+If a method cannot be inherited, then it cannot be overridden.
+Q30
+
+ 
+What is the output of below given code?
+
+public static void main(String[] args){
+  TreeMap tree = new TreeMap();
+  tree.put("India", 1);
+  tree.put("China", 2);
+  tree.put("Nepal", 3);
+  tree.put("Bhutan", 4);
+  System.out.println(tree);
+ }
+Single Choice - Select one correct answer from the options list.
+{India=1, China=2, , Nepal=3, Bhutan=4}
+{Bhutan=4, China=2, India=1, Nepal=3}
+Compilation Error because of not using generics
+RuntimeException because of not using generics
+Q31
+
+ 
+Path file = Paths.get("D:/demo.txt");
+  List<String> lines = Files.readAllLines(file);
+  for(String line:lines) {
+   System.out.println(line);
+  }
+  System.out.println("End of File...."); 
+
+What will be the output, if the file is empty?
+Single Choice - Select one correct answer from the options list.
+IOException
+null
+no output
+End of File....
+Q32
+
+ 
+What is the output of the given code?
+
+public static void main(String[] args){
+  String[] arr = { "ispace",".", "cg", "." };
+  List<String> list = (List<String>) Arrays.asList(arr); // line 1
+  arr[3] = ".com"; // line 2
+  for (String word : list) {
+  System.out.print(word);
+  }
+Single Choice - Select one correct answer from the options list.
+ispace.com
+ispace.cg.com
+Compilation Error at line 1
+Compilation Error at line 2
+Q33
+
+ 
+Consider the following code snippet.
+
+Line-1   public class JUnitTest {
+Line-2      @Test 
+Line-3           public void simpleAdd() { 
+Line-4       int result = 1; 
+Line-5        int expected = 1; 
+Line-6      //Insert Code here
+Line-7     } } 
+  
+If we want the test to be pass for the above result and expected variable at Line-4 and  Line-5. 
+Which of the following method should be inserted at Line-6 ?             
+Single Choice - Select one correct answer from the options list.
+assertIsEquals(expected,result);
+assertNotEquals(result, expected);
+assertEquals(result, expected);
+assertBoolean(result, expected);
+Q34
+
+ 
+FileReader f=new FileReader("demo");
+
+Which exception must be caught for the given statement?
+Single Choice - Select one correct answer from the options list.
+RunTimeException
+FileNotFoundException
+EOFException
+InterruptedException
+Q35
+
+ 
+Is JVM Platform Independent?
+Single Choice - Select one correct answer from the options list.
+Yes
+No
+Q36
+
+ 
+HashSet and HashMap internally calls which methods on the objects to compare? 
+Single Choice - Select one correct answer from the options list.
+wait() and notify()
+clone() and toString()
+hashCode() and equals()
+None of above
+Q37
+
+ 
+What is the outcome of the following code?
+ 
+ interface foo
+{}
+ class Alpha1 implements foo
+ { }
+ class Beta1 extends Alpha1
+ { }
+ class Delta1 extends Beta1
+  { }
+public class TestInterface1 
+{ 
+ public static void main(String[] args)
+ {
+  Beta1 x=new Beta1();
+  Alpha1 a=(Alpha1)x;
+  Delta1    d=(Delta1)x;
+ }
+}
+Single Choice - Select one correct answer from the options list.
+Program Run fine and print nothing.
+Compilation Error at {Alpha1 a=(Alpha1)x;} Line.
+Compilation Error at {Delta1 d=(Delta1)x;} Line.
+RuntimeException
+Q38
+
+ 
+What is the output of following code?
+
+class ArrayOutput
+{
+public static void main(String []args){
+int array[][]={
+{1,2,3},{4,5,6},{7,8,9} };
+
+int sum=0;
+
+for(int i=0;i<3;++i)
+for(int j=0;j<3;++j)
+sum=sum+array[i][j];
+System.out.println(sum/5);
+}
+}
+Single Choice - Select one correct answer from the options list.
+8
+9
+10
+11
+Q39
+
+ 
+What is the output of this program?
+
+ public class SwitchDemo {
+ public static void main(String[] args) {
+
+  String color="red";
+  switch(color){
+  case "red":System.out.println("Color is Red");
+  break;
+  case "green":System.out.println("Color is green");
+  break;
+  default:
+   System.out.println("Color not found");
+  }//end of switch
+  
+ }//end of main
+
+}//end of class
+Single Choice - Select one correct answer from the options list.
+Color is Red
+Compiletime error
+Runtime error
+No output
+Q40
+
+ 
+Select the incorrect option w.r.t interfaces: 
+Single Choice - Select one correct answer from the options list.
+interface Test{ default void m1(arg-list) { } }
+interface Test{ void m1(arg-list); }
+interface Test{ static void m1(arg-list) { } }
+interface Test{ public final void m1(); }
+Developer Tools
+123456
+Core Java 8
+789101112131415161718192021222324252627282930313233343536373839402 out of 40  Submit Assessment

@@ -1,0 +1,460 @@
+
+VNV ISTQB Mod 2 MTT Set 1
+
+
+Section:
+1
+Time Left : 40 : 44 List View 
+    Active     Attempted     Not Attempted
+Q1
+
+ 
+Which of the following is TRUE?
+Single Choice - Select one correct answer from the options list.
+Confirmation testing is testing fixes to a set of defects and Regression testing is testing
+to establish whether any defects have been introduced as a result of changes
+Confirmation testing is testing to establish whether any defects have been introduced as
+a result of changes and Regression testing is testing fixes to a set of defects.
+Confirmation testing and Regression testing are both testing to establish whether any
+defects have been introduced as a result of changes.
+Confirmation testing and Regression testing are both testing fixes to a set of defects.
+Q2
+
+ 
+Which of the following is correct?
+Single Choice - Select one correct answer from the options list.
+Impact analysis assesses the effect on the system of a defect found in regression testing
+Impact analysis assesses the effect of a new person joining the regression test team
+Impact analysis assesses whether or not a defect found in regression testing has been
+fixed correctly
+Impact analysis assesses the effect of a change to the system to determine how much
+regression testing to do.
+Q3
+
+ 
+Which of the following are characteristic of regression testing?
+
+i) Regression testing is run ONLY once
+ii) Regression testing is used after fixes have been made
+iii) Regression testing is often automated
+iv) Regression tests need not be maintained
+Single Choice - Select one correct answer from the options list.
+ii, iv
+ii, iii
+i, iii, iv
+iii
+Q4
+
+ 
+Which type of test design techniques does the following statement best describe
+a procedure to derive test cases based on the specification of a component?
+Single Choice - Select one correct answer from the options list.
+Black Box Techniques
+White Box Techniques
+Glass Box Techniques
+Experience Based Techniques
+Q5
+
+ 
+Which of the following activities should be performed during the selection and implementation 
+of a testing tool?
+
+i) Investigate the organisation's test process.
+ii) Conduct a proof of concept.
+iii) Implement the selected tool on a project behind schedule to save time.
+iv) Identify coaching and mentoring requirements for the use of the selected tool.
+Single Choice - Select one correct answer from the options list.
+i, ii, iii
+ii, iii, iv
+i, iii, iv
+i, ii, iv
+Q6
+
+ 
+With which of the following categories is a test comparator tool USUALLY associated?
+Single Choice - Select one correct answer from the options list.
+Tool support for performance and monitoring
+Tool support for static testing
+Tool support for test execution and logging
+Tool support for the management of testing and tests
+Q7
+
+ 
+Who would USUALLY perform debugging activities?
+Single Choice - Select one correct answer from the options list.
+Developers
+Analysts
+Testers
+Incident Managers.
+Q8
+
+ 
+Which of the following defines the expected results of a test?
+Single Choice - Select one correct answer from the options list.
+Test case specification
+Test design specification
+Test procedure specification
+Test results.
+Q9
+
+ 
+Which of the following is a benefit of test independence?
+Single Choice - Select one correct answer from the options list.
+It does not require familiarity with the code
+It is cheaper than using developers to test their own code
+It avoids author bias in defining effective tests
+Testers are better at finding defects than developers
+Q10
+
+ 
+Complete statement and branch coverage means:
+Single Choice - Select one correct answer from the options list.
+That you have tested every statement in the program
+That you have tested every statement and every branch in the program
+That you have tested every IF statement in the program
+That you have tested every combination of values of IF statements in the program
+Q11
+
+ 
+Where may functional testing be performed?
+Single Choice - Select one correct answer from the options list.
+At system and acceptance testing levels only
+At all test levels
+At all levels above integration testing
+At the acceptance testing level only
+Q12
+
+ 
+What is beta testing?
+Single Choice - Select one correct answer from the options list.
+Testing performed by potential customers at the developers location
+Testing performed by potential customers at their own locations
+Testing performed by product developers at the customer's location
+Testing performed by product developers at their own locations.
+Q13
+
+ 
+What is the MAIN benefit of designing tests early in the life cycle?
+Single Choice - Select one correct answer from the options list.
+It is cheaper than designing tests during the test phases
+It helps prevent defects from being introduced into the code
+Tests designed early are more effective than tests designed later
+It saves time during the testing phases when testers are busy
+Q14
+
+ 
+Which is the best definition of complete testing?
+Single Choice - Select one correct answer from the options list.
+You have discovered every bug in the program
+You have tested every statement, branch, and combination of branches in the program
+You have completed every test in the test plan
+You have reached the scheduled ship date
+Q15
+
+ 
+Which of the following benefits are MOST likely to be achieved by using test tools?
+Single Choice - Select one correct answer from the options list.
+Easy to access information about tests and testing
+Reduced maintenance of testware
+Easy and cheap to implement
+Greater consistency of tests
+Q16
+
+ 
+What is the MAIN purpose of a Master Test Plan?
+Single Choice - Select one correct answer from the options list.
+To communicate how incidents will be managed
+To communicate how testing will be performed
+To produce a test schedule
+To produce a work breakdown structure
+Q17
+
+ 
+A defect arrival rate curve:
+Single Choice - Select one correct answer from the options list.
+Shows the number of newly discovered defects per unit time
+Shows the number of open defects per unit time
+Shows the cumulative total number of defects found up to this time
+Any of these, depending on the company
+Q18
+
+ 
+Given the following fragment of code, how many tests are required for 100% decision coverage?
+
+if width > length
+then
+biggest_dimension = width
+if height > width
+then
+biggest_dimension = height
+end_if
+else
+biggest_dimension = length
+if height > length
+then
+biggest_dimension = height
+end_if
+end_if
+Single Choice - Select one correct answer from the options list.
+3
+1
+2
+4
+Q19
+
+ 
+As part of which test process do you determine the exit criteria?
+Single Choice - Select one correct answer from the options list.
+Test planning
+Evaluating exit criteria and reporting
+Test closure
+Test control
+Q20
+
+ 
+Which of the following is a MAJOR task of test implementation and execution?
+Single Choice - Select one correct answer from the options list.
+Measuring and analyzing results
+Reporting discrepancies as incidents
+Identifying test conditions or test requirements
+Assessing if more tests are needed
+Q21
+
+ 
+For which of the following would a static analysis tool be MOST useful?
+Single Choice - Select one correct answer from the options list.
+Supporting reviews
+Validating models of the software
+Testing code executed in a special test harness
+Enforcement of coding standards
+Q22
+
+ 
+A thermometer measures temperature in whole degrees only. If the temperature falls 
+below 18 degrees, the heating is switched off. It is switched on again when the temperature 
+reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?
+Single Choice - Select one correct answer from the options list.
+15, 19 and 25
+17, 18 and19
+18, 20 and22
+16, 26 and 32
+Q23
+
+ 
+Some tools are geared more for developer use. For the 5 tools listed, 
+which statement BEST details those for developers?
+
+i) Performance testing tools.
+ii) Coverage measurement tools.
+iii) Test comparators.
+iv) Dynamic analysis tools.
+v) Incident management tools.
+Single Choice - Select one correct answer from the options list.
+i, iii and iv are more for developers
+ii and iv are more for developers
+ii, iii. and iv. are more for developers
+ii and iii are more for developers
+Q24
+
+ 
+What is the main purpose of impact analysis for testers?
+Single Choice - Select one correct answer from the options list.
+To determine the programming effort needed to make the changes
+To determine what proportion of the changes need to be tested
+To determine how much the planned changes will affect users
+To determine how the existing system may be affected by changes
+Q25
+
+ 
+Match the following terms and statements:
+
+1. Decision Table Testing
+2. Decision Testing
+3. State Transition Testing
+4. Exploratory Testing
+
+W. Testing carried out w boxes to achieve specific test objectives, possibly to complement
+structured testing.
+X. A test technique used which may be used to verify different system re depending on
+current conditions or previous history.
+Y. A test technique which combines combinations of inputs that might not otherwise have
+been exercised during testing.
+Z. A form of control flow testing based on decision outcomes
+Single Choice - Select one correct answer from the options list.
+1Y, 2Z, 3X, 4W
+1X ,2W, 3Z, 4Y
+1Z, 2X, 3W, 4Y
+1Z, 2Y, 3X, 4W
+Q26
+
+ 
+Which of the following BEST describes the difference between an inspection and a walkthrough?
+Single Choice - Select one correct answer from the options list.
+Both inspections and walkthroughs are led by the author
+An inspection is led by a moderator and a walkthrough is led by the author
+Both inspections and walkthroughs are led by a trained moderator
+A walkthrough is led by the author. The author is not present during inspections
+Q27
+
+ 
+What is the MAIN objective when reviewing a software deliverable?
+Single Choice - Select one correct answer from the options list.
+To identify potential application failures by use of a test specification
+To identify defects in any software work product
+To identify spelling mistakes in a requirements specification
+To identify standards inconsistencies in the code
+Q28
+
+ 
+Which activities form part of test planning?
+
+i) Developing test cases.
+ii) Defining the overall approach to testing.
+iii) Assigning resources.
+iv) Building the test environment
+v) Writing test conditions.
+Single Choice - Select one correct answer from the options list.
+i, ii & iv are true, iii & v are false
+ii & iii are true, i, iv & v are false
+iv & v are true, i, ii & iii are false
+i, ii & iii are true iv & v are false
+Q29
+
+ 
+You have designed test cases to provide 100% statement and 100% decision coverage for 
+the following fragment of code.
+
+if width > length
+then
+biggest_dimension = width
+else
+biggest_dimension = length
+end_if
+The following has been added to the bottom of the code fragment above
+print "Biggest dimension is " & biggest_dimension
+print "Width: " & width
+print "Length: " & length
+
+How many more test cases are required?
+Single Choice - Select one correct answer from the options list.
+One more test case will be required for 100 % decision coverage
+Two more test cases will be required for 100 % statement coverage, one of which will be
+used to provide 100% decision coverage.
+None, existing test cases can be used
+One more test case will be required for 100" statement coverage
+Q30
+
+ 
+What is the purpose of exit criteria?
+Single Choice - Select one correct answer from the options list.
+To define when a test level is complete.
+To determine when a test has completed
+To identify when a software system should be retired
+To determine whether a test has passed.
+Q31
+
+ 
+Which of the following would you NOT usually find on a software incident report?
+Single Choice - Select one correct answer from the options list.
+The name and/or organisational position of the person raising the problem.
+Version of the Software Under Test.
+Suggestions as to how to fix the problem
+Actual and expected results
+Q32
+
+ 
+What determines the level of risk?
+Single Choice - Select one correct answer from the options list.
+The cost of dealing with an adverse event if it occurs.
+The probability that an adverse event will occur.
+The amount of testing planned before release of a system
+The likelihood of an adverse event and the impact of the event
+Q33
+
+ 
+When should configuration management procedures be implemented?
+Single Choice - Select one correct answer from the options list.
+During test planning
+During test analysis
+During test execution
+When evaluating exit criteria
+Q34
+
+ 
+Which of the following combinations correctly describes a valid approach to component testing?
+
+i) Functional testing of the component in isolation.
+ii) Structure-based testing of the code without recording incidents.
+iii) Automated tests that are run until the component passes.
+iv) Functional testing of the interfaces between modules.
+Single Choice - Select one correct answer from the options list.
+i and ii
+I, ii and iii
+iii
+ii and iv
+Q35
+
+ 
+Which of the following is a purpose of the review planning phase?
+Single Choice - Select one correct answer from the options list.
+Log defects
+Explain the documents to the participants
+Gather metrics
+Allocate the individual roles
+Q36
+
+ 
+What is the KEY difference between preventative and reactive approaches to testing?
+Single Choice - Select one correct answer from the options list.
+Preventative tests and reactive tests are designed as early as possible
+Preventative tests are designed early; reactive tests are designed after the software has
+been produced
+Preventative testing is always analytical; reactive testing is always heuristic
+Preventative tests are designed after the software has been produced; 
+reactive tests are designed early in response to review comments
+Q37
+
+ 
+Which activity in the fundamental test process creates test suites for efficient test execution?
+Single Choice - Select one correct answer from the options list.
+Implementation and execution.
+Planning and control
+Analysis and design
+Test closure
+Q38
+
+ 
+Which of the following is MOST characteristic of specification based (black-box) techniques?
+Single Choice - Select one correct answer from the options list.
+Test cases can be easily automated
+Test cases are independent of each other
+Test cases are derived systematically from models of the system
+Test cases are derived systematically from the delivered code
+Q39
+
+ 
+A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount 
+for orders of 100 or more printer cartridges. You have been asked to prepare test cases using 
+various values for the number of printer cartridges ordered. Which of the following groups 
+contain three test inputs that would be generated using Boundary Value Analysis?
+Single Choice - Select one correct answer from the options list.
+5, 6, 20
+4, 5, 80
+4, 5, 99
+1, 20, 100
+Q40
+
+ 
+Which of the following types of defects is use case testing MOST LIKELY to uncover?
+
+i) Defects in the process flows during real-world use of the system.
+ii) Defects in the interface parameters in integration testing.
+iii) Integration defects caused by the interaction and interference of different components.
+iv) Defects in the system as it transitions between one state and another
+Single Choice - Select one correct answer from the options list.
+ii, iii
+i, iii
+iii, iv
+i, ii
+ISTQB
+123456789101112131415161718192021222324252627282930313233343536373839401 out of 40  Submit Assessment
